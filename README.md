@@ -7,6 +7,7 @@ This repository provides a modular, Python-based framework derived from the prop
 
 
 ## Get Started
+Adapted from a real NoSINT module, this plugin retrieves residual information from deleted or "closed accounts" on Freelancer.com.
 - Install Requirements
     ```sh
     pip install -r requirements.txt

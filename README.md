@@ -1,8 +1,10 @@
 # NoSINT.org — Development Guide
 
+---
+
 Welcome, Agent.
 This repository provides a modular, Python-based framework derived from the proprietary NoSINT.org platform. It allows analysts and automated agents to execute targeted modules against specific platforms or objectives. This guide outlines how to build, structure, and integrate new modules into the system effectively.
----
+
 
 ## Get Started
 - Install Requirements
@@ -40,7 +42,7 @@ def run(session, query, *args, **kwargs):
 
 ```text
 modules/
-└── freelancer.py -- # contains run()
+└── freelancer.recovery.py # contains run()
 ```
 
 ---
@@ -78,8 +80,6 @@ All modules should return a dict with the following shape:
     }
 }
 ```
-
-This allows the output to be parsed and visualized in a clean tree-style with the built-in 'Print.prettify()' function.
 
 ---
 
